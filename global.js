@@ -302,10 +302,10 @@ if(direction == 'b') {
 //custom slide changes ends here....
 
 	else{
-	if(page_id <= 17){
+	if(page_id <= 22){
 		page_id = page_id + 1;
 		//alert(page_id);
-		if(page_id == 18){
+		if(page_id == 23){
             flag=1;
         }
 	}
@@ -434,6 +434,21 @@ switch(pg_id){
 	break;
 	case 17:
 	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><iframe src="17/html/index.html" class="background1" height="775" width="1180" frameBorder="0" title="Iframe Example"></iframe>';
+	break;
+	case 18:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><iframe src="18/html/index.html" class="background1" height="775" width="1180" frameBorder="0" title="Iframe Example"></iframe>';
+	break;
+	case 19:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><iframe src="19/html/index.html" class="background1" height="775" width="1180" frameBorder="0" title="Iframe Example"></iframe>';
+	break;
+	case 20:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><iframe src="20/html/index.html" class="background1" height="775" width="1180" frameBorder="0" title="Iframe Example"></iframe>';
+	break;
+	case 21:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><iframe src="21/html/index.html" class="background1" height="775" width="1180" frameBorder="0" title="Iframe Example"></iframe>';
+	break;
+	case 22:
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><iframe src="22/html/index.html" class="background1" height="775" width="1180" frameBorder="0" title="Iframe Example"></iframe>';
 	break;
 }
 
